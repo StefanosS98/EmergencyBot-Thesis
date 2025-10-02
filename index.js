@@ -3,8 +3,8 @@ const { BotFrameworkAdapter } = require('botbuilder');
 
 // Adapter setup
 const adapter = new BotFrameworkAdapter({
-    appId: process.env.MicrosoftAppId,
-    appPassword: process.env.MicrosoftAppPassword
+    appId: process.env.MicrosoftAppId || "",
+    appPassword: process.env.MicrosoftAppPassword || ""
 });
 
 // Server setup
