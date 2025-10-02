@@ -28,11 +28,3 @@
 - Azure App Service για deploy
 - GitHub (για CI/CD deploy, optional)
 
----
-
-## Οδηγίες εγκατάστασης / ανάπτυξης
-
-1. Κλωνοποιήστε το repository:
-```bash
-git clone https://github.com/<username>/EmergencyBot.git
-cd EmergencyBot
