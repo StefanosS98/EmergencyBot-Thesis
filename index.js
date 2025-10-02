@@ -14,7 +14,7 @@ server.listen(process.env.port || process.env.PORT || 3978, () => {
 });
 
 // Main bot logic
-server.post('/api/messages', async (req, res, next) => {
+server.post('/api/messages', async (req, res) => {
     await adapter.processActivity(req, res, async (context) => {
         if (context.activity.type === 'message') {
             const text = context.activity.text.toLowerCase();
@@ -28,5 +28,4 @@ server.post('/api/messages', async (req, res, next) => {
             }
         }
     });
-    next();
 });
