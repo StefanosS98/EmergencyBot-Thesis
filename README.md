@@ -10,7 +10,7 @@
 - `"πυρκαγιά"` → οδηγίες ασφαλούς απομάκρυνσης και κλήσης πυροσβεστικής.
 - `"σεισμός"` → οδηγίες προστασίας και ασφάλειας.
 
-Χρησιμοποιεί Node.js και το Bot Framework SDK και τρέχει σε Azure App Service.
+Χρησιμοποιεί Node.js και το Bot Framework SDK.
 
 ---
 
@@ -19,12 +19,4 @@
 - `index.js` → Κύριο αρχείο με λογική bot
 - `package.json` → Εξαρτήσεις Node.js
 
----
-
-## Απαιτήσεις
-
-- Node.js 18 LTS ή νεότερο
-- Microsoft Azure Bot Service
-- Azure App Service για deploy
-- GitHub (για CI/CD deploy, optional)
 
